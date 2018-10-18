@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Realtor]">
+  <test thread-count="5" name="CodingTest(failed)">
+    <classes>
+      <class name="realtor.scenario4SecondSearchResultTest">
+        <methods>
+          <include name="priceCheck"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- realtor.scenario4SecondSearchResultTest -->
+    </classes>
+  </test> <!-- CodingTest(failed) -->
+</suite> <!-- Failed suite [Realtor] -->

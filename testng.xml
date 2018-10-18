@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Realtor">
+  <test name="CodingTest">
+  <classes>
+   	<class name="realtor.scenario1Test" />
+   	<class name="realtor.scenario2Test" />
+   	<class name="realtor.scenario3BonusTest" />
+   	<class name="realtor.scenario4SecondSearchResultTest" />
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
